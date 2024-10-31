@@ -23,7 +23,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Yuxiao Li"
-  location         : "Columbus"
+  location         : "Columbus, OH"
   employer         : "The Ohio State University"
   email            : "li.14025 (at) osu (dot) edu" 
 
@@ -41,7 +41,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : https://YuxiaoLi1234.github.io
+  github           : YuxiaoLi1234.github.io
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
