@@ -3,7 +3,6 @@ title: "MSz: An Efficient Parallel Algorithm for Correcting Morse-Smale Segmenta
 collection: publications
 category: conferences
 permalink: https://arxiv.org/abs/2406.09423
-excerpt: 'This paper is about fixing template issue #693.'
 date: 2024-02-17
 venue: 'IEEE Transactions on Visualization and Computer Graphics (Proc. IEEE VIS 2024), 2025. (Accepted)'
 paperurl: 'https://arxiv.org/abs/2406.09423'
