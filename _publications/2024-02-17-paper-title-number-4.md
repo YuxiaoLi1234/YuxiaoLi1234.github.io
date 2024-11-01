@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 4"
+title: "MSz: An Efficient Parallel Algorithm for Correcting Morse-Smale Segmentations in Error-Bounded Lossy Compressors"
 collection: publications
 category: conferences
 permalink: /publication/2024-02-17-paper-title-number-4
