@@ -11,8 +11,9 @@ redirect_from:
 Education
 ======
 * Graduate Research Assistant - Ohio State University
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+  Sep 2023 — Present
+* M.S. in School of Data Science, Fudan University, 2023
+* B.S. in West China School of Medicine, Sichuan University, 2021
 
 Work experience
 ======
