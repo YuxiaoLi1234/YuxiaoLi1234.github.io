@@ -1,7 +1,7 @@
 ---
-title: "Multi-Tier Preservation of Discrete Morse Smale Complexes in Error-Bounded Lossy Compression"
+title: "Preserving Discrete Morse–Smale Complexes in Error-Bounded Lossy Compression"
 collection: publications
-category:  manuscripts
+category: manuscripts
 paperurl: 'https://arxiv.org/abs/2409.17346'
-citation: '<b><u>Yuxiao Li</u></b>, Mingze Xia, Xin Liang, Bei Wang, & Hanqi Guo. (2024). Multi-Tier Preservation of Discrete Morse Smale Complexes in Error-Bounded Lossy Compression. arXiv:2409.17346 [cs.GR], 2024.'
+citation: '[TVCG] <b><u>Yuxiao Li</u></b>, Xin Liang, Bei Wang, and Hanqi Guo. Preserving Discrete Morse–Smale Complexes in Error-Bounded Lossy Compression. <i>IEEE Transactions on Visualization and Computer Graphics</i>, 2026. (In Press)'
 ---
