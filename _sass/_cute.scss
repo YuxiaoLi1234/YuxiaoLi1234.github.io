@@ -245,6 +245,14 @@ button:focus-visible {
   line-height: 1.65;
 }
 
+.home-intro__bio {
+  max-width: 720px;
+  margin: 0 0 1rem !important;
+  color: #505867;
+  font-size: 1rem !important;
+  line-height: 1.72;
+}
+
 .research-chips {
   display: flex;
   flex-wrap: wrap;
@@ -354,20 +362,6 @@ button:focus-visible {
   color: #fff;
   border-color: var(--berry);
   background: linear-gradient(135deg, #e9769b, #d75b86);
-}
-
-.about-card {
-  margin-top: 1.4rem;
-  padding: clamp(1.4rem, 4vw, 2rem);
-  border: 1px solid rgba(84, 127, 189, 0.15);
-  border-radius: 26px;
-  background: rgba(239, 247, 255, 0.78);
-  box-shadow: none;
-}
-
-.about-card p:last-child {
-  margin-bottom: 0;
-  color: #5f6776;
 }
 
 .archive__item {
@@ -486,8 +480,6 @@ button:focus-visible {
     width: 40px;
     height: 40px;
   }
-
-  .about-card { border-radius: 22px; }
 
   .page:not(.page--home),
   .archive {

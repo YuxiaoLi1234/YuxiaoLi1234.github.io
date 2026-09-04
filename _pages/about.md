@@ -12,6 +12,7 @@ redirect_from:
   <div class="home-intro__copy">
     <p class="home-intro__eyebrow">Ph.D. Student · The Ohio State University</p>
     <h1 id="hello-yuxiao">Hello, I'm Yuxiao <span aria-hidden="true">✦</span></h1>
+    <p class="home-intro__bio">I am a third-year Ph.D. student at The Ohio State University, advised by Prof. Hanqi Guo. I received my M.S. from the School of Data Science at Fudan University in 2023 and my B.S. from the West China School of Medicine at Sichuan University in 2021.</p>
     <p class="home-intro__lead">My research interests include data visualization, topological data analysis, and data compression.</p>
 
     <div class="research-chips" aria-label="Research interests">
@@ -32,8 +33,4 @@ redirect_from:
     </div>
     <figcaption>Isabelle © Nintendo · <a href="https://animal-crossing.com/" target="_blank" rel="noopener noreferrer">official artwork</a></figcaption>
   </figure>
-</section>
-
-<section class="about-card" aria-label="Biography">
-  <p>I am a third-year Ph.D. student at The Ohio State University, advised by Prof. Hanqi Guo. I received my M.S. from the School of Data Science at Fudan University in 2023 and my B.S. from the West China School of Medicine at Sichuan University in 2021.</p>
 </section>
