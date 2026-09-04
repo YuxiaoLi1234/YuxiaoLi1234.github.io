@@ -9,20 +9,32 @@ redirect_from:
 ---
 
 <section class="home-intro" aria-labelledby="hello-yuxiao">
-  <p class="home-intro__eyebrow">Ph.D. Student · The Ohio State University</p>
-  <h1 id="hello-yuxiao">Hello, I'm Yuxiao <span aria-hidden="true">✦</span></h1>
-  <p class="home-intro__lead">I explore how we can understand, preserve, and efficiently represent complex scientific data.</p>
+  <div class="home-intro__copy">
+    <p class="home-intro__eyebrow">Ph.D. Student · The Ohio State University</p>
+    <h1 id="hello-yuxiao">Hello, I'm Yuxiao <span aria-hidden="true">✦</span></h1>
+    <p class="home-intro__lead">I explore how we can understand, preserve, and efficiently represent complex scientific data.</p>
 
-  <div class="research-chips" aria-label="Research interests">
-    <span>Data Visualization</span>
-    <span>Topological Data Analysis</span>
-    <span>Data Compression</span>
+    <div class="research-chips" aria-label="Research interests">
+      <span>Data Visualization</span>
+      <span>Topological Data Analysis</span>
+      <span>Data Compression</span>
+    </div>
+
+    <div class="home-intro__actions">
+      <a class="cute-button cute-button--primary" href="/publications/">Explore my research <span aria-hidden="true">→</span></a>
+      <a class="cute-button" href="/cv/">View experience</a>
+    </div>
   </div>
 
-  <div class="home-intro__actions">
-    <a class="cute-button cute-button--primary" href="/publications/">Explore my research <span aria-hidden="true">→</span></a>
-    <a class="cute-button" href="/cv/">View experience</a>
-  </div>
+  <figure class="game-friends">
+    <div class="game-friends__scene">
+      <span class="game-friends__bubble game-friends__bubble--topology">Topology</span>
+      <img class="game-friends__isabelle" src="/images/animal-crossing-isabelle.png" alt="Isabelle from Animal Crossing">
+      <img class="game-friends__tom" src="/images/animal-crossing-tom-nook.png" alt="Tom Nook from Animal Crossing">
+      <span class="game-friends__bubble game-friends__bubble--data">Data!</span>
+    </div>
+    <figcaption>Animal Crossing characters © Nintendo · <a href="https://animal-crossing.com/" target="_blank" rel="noopener noreferrer">official artwork</a></figcaption>
+  </figure>
 </section>
 
 <section class="about-card" aria-labelledby="about-journey">
