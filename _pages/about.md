@@ -34,11 +34,6 @@ redirect_from:
   </figure>
 </section>
 
-<section class="about-card" aria-labelledby="about-journey">
-  <div class="about-card__marker" aria-hidden="true">01</div>
-  <div>
-    <p class="about-card__kicker">A little about me</p>
-    <h2 id="about-journey">From medicine to data science</h2>
-    <p>I am a third-year Ph.D. student at The Ohio State University, advised by Prof. Hanqi Guo. I received my M.S. from the School of Data Science at Fudan University in 2023 and my B.S. from the West China School of Medicine at Sichuan University in 2021.</p>
-  </div>
+<section class="about-card" aria-label="Biography">
+  <p>I am a third-year Ph.D. student at The Ohio State University, advised by Prof. Hanqi Guo. I received my M.S. from the School of Data Science at Fudan University in 2023 and my B.S. from the West China School of Medicine at Sichuan University in 2021.</p>
 </section>
