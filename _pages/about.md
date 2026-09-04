@@ -37,11 +37,13 @@ redirect_from:
 
 <section class="home-publications" aria-labelledby="home-publications-title">
   <div class="home-publications__header">
-    <h2 id="home-publications-title">Publications</h2>
+    <h2 id="home-publications-title">Selected Publications</h2>
     <a href="/publications/">View all <span aria-hidden="true">→</span></a>
   </div>
 
-  {% for post in site.publications reversed limit: 4 %}
-    {% include archive-single.html %}
+  {% for post in site.publications reversed %}
+    {% if post.selected %}
+      {% include archive-single.html %}
+    {% endif %}
   {% endfor %}
 </section>

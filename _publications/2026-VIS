@@ -2,6 +2,7 @@
 title: "EXaCTz: Guaranteed Extremum Graph and Contour Tree Preservation for Distributed-and GPU-Parallel Lossy Compression"
 collection: publications
 category: conferences
+selected: true
 venue: IEEE Transactions on Visualization and Computer Graphics (Proc. IEEE VIS 2026).
 paperurl: 'https://arxiv.org/abs/2604.01397'
 citation: '<b><u>Yuxiao Li</u></b>, Mingze Xia, Xin Liang, Bei Wang, Hanqi Guo, "EXaCTz: Guaranteed Extremum Graph and Contour Tree Preservation for Distributed-and GPU-Parallel Lossy Compression," in IEEE Transactions on Visualization and Computer Graphics.'
