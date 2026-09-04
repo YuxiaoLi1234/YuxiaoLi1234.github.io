@@ -12,7 +12,7 @@ redirect_from:
   <div class="home-intro__copy">
     <p class="home-intro__eyebrow">Ph.D. Student · The Ohio State University</p>
     <h1 id="hello-yuxiao">Hello, I'm Yuxiao <span aria-hidden="true">✦</span></h1>
-    <p class="home-intro__lead">I explore how we can understand, preserve, and efficiently represent complex scientific data.</p>
+    <p class="home-intro__lead">My research interests include data visualization, topological data analysis, and data compression.</p>
 
     <div class="research-chips" aria-label="Research interests">
       <span>Data Visualization</span>
