@@ -34,3 +34,14 @@ redirect_from:
     <figcaption>Isabelle © Nintendo · <a href="https://animal-crossing.com/" target="_blank" rel="noopener noreferrer">official artwork</a></figcaption>
   </figure>
 </section>
+
+<section class="home-publications" aria-labelledby="home-publications-title">
+  <div class="home-publications__header">
+    <h2 id="home-publications-title">Publications</h2>
+    <a href="/publications/">View all <span aria-hidden="true">→</span></a>
+  </div>
+
+  {% for post in site.publications reversed limit: 4 %}
+    {% include archive-single.html %}
+  {% endfor %}
+</section>
