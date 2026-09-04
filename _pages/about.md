@@ -2,9 +2,34 @@
 permalink: /
 title: "About Me"
 author_profile: true
+homepage_style: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I am a 3rd year Ph.D. student at The Ohio State University, advised by Prof. Hanqi Guo. I obtained my M.S. degree from the School of Data Science at Fudan University in 2023 and my B.S. degree from the West China School of Medicine at Sichuan University in 2021. My research interests include data visualization, topological data analysis, and data compression.
+<section class="home-intro" aria-labelledby="hello-yuxiao">
+  <p class="home-intro__eyebrow">Ph.D. Student · The Ohio State University</p>
+  <h1 id="hello-yuxiao">Hello, I'm Yuxiao <span aria-hidden="true">✦</span></h1>
+  <p class="home-intro__lead">I explore how we can understand, preserve, and efficiently represent complex scientific data.</p>
+
+  <div class="research-chips" aria-label="Research interests">
+    <span>Data Visualization</span>
+    <span>Topological Data Analysis</span>
+    <span>Data Compression</span>
+  </div>
+
+  <div class="home-intro__actions">
+    <a class="cute-button cute-button--primary" href="/publications/">Explore my research <span aria-hidden="true">→</span></a>
+    <a class="cute-button" href="/cv/">View experience</a>
+  </div>
+</section>
+
+<section class="about-card" aria-labelledby="about-journey">
+  <div class="about-card__marker" aria-hidden="true">01</div>
+  <div>
+    <p class="about-card__kicker">A little about me</p>
+    <h2 id="about-journey">From medicine to data science</h2>
+    <p>I am a third-year Ph.D. student at The Ohio State University, advised by Prof. Hanqi Guo. I received my M.S. from the School of Data Science at Fudan University in 2023 and my B.S. from the West China School of Medicine at Sichuan University in 2021.</p>
+  </div>
+</section>
