@@ -23,10 +23,7 @@ html {
 }
 
 body {
-  background:
-    radial-gradient(circle at 8% 18%, rgba(255, 221, 234, 0.58) 0, rgba(255, 221, 234, 0) 24rem),
-    radial-gradient(circle at 92% 30%, rgba(220, 240, 255, 0.68) 0, rgba(220, 240, 255, 0) 25rem),
-    var(--cream);
+  background: #fffbfc;
   color: var(--ink);
   font-size: 16px;
   line-height: 1.7;
@@ -54,7 +51,7 @@ button:focus-visible {
   height: 72px;
   background: rgba(255, 254, 254, 0.88);
   border-bottom: 1px solid rgba(233, 118, 155, 0.16);
-  box-shadow: 0 8px 30px rgba(112, 72, 91, 0.06);
+  box-shadow: 0 5px 18px rgba(112, 72, 91, 0.04);
   -webkit-backdrop-filter: blur(16px);
   backdrop-filter: blur(16px);
 }
@@ -111,7 +108,7 @@ button:focus-visible {
   border: 1px solid rgba(233, 118, 155, 0.18);
   border-radius: 28px;
   background: rgba(255, 254, 254, 0.76);
-  box-shadow: var(--soft-shadow);
+  box-shadow: 0 10px 28px rgba(112, 72, 91, 0.07);
 }
 
 @media screen and (min-width: 925px) {
@@ -190,39 +187,20 @@ button:focus-visible {
 .home-intro {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(0, 1.08fr) minmax(270px, 0.92fr);
+  grid-template-columns: minmax(0, 1fr) minmax(170px, 0.38fr);
   align-items: center;
   gap: clamp(1rem, 3vw, 2.2rem);
   overflow: hidden;
-  padding: clamp(1.5rem, 4vw, 3.25rem);
-  border: 1px solid rgba(233, 118, 155, 0.2);
-  border-radius: 34px;
-  background: linear-gradient(145deg, rgba(255, 254, 254, 0.98), rgba(255, 240, 246, 0.90));
-  box-shadow: var(--soft-shadow);
+  padding: clamp(1.75rem, 4vw, 3.25rem);
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 12px 32px rgba(112, 72, 91, 0.07);
 }
 
 .home-intro::before,
 .home-intro::after {
-  position: absolute;
-  content: "";
-  border-radius: 50%;
-  pointer-events: none;
-}
-
-.home-intro::before {
-  top: -5rem;
-  right: -3rem;
-  width: 13rem;
-  height: 13rem;
-  background: rgba(209, 234, 255, 0.65);
-}
-
-.home-intro::after {
-  right: 7rem;
-  bottom: -4.5rem;
-  width: 9rem;
-  height: 9rem;
-  background: rgba(225, 247, 239, 0.74);
+  display: none;
 }
 
 .home-intro > * {
@@ -284,7 +262,7 @@ button:focus-visible {
   border: 1px solid rgba(217, 95, 139, 0.18);
   border-radius: 999px;
   background: #fff;
-  box-shadow: 0 5px 15px rgba(112, 72, 91, 0.07);
+  box-shadow: none;
 }
 
 .research-chips span:nth-child(2) {
@@ -308,7 +286,7 @@ button:focus-visible {
 .game-friends {
   display: block;
   align-self: end;
-  margin: -0.5rem -0.4rem -1.15rem 0;
+  margin: 0 -0.4rem -1.3rem 0;
 }
 
 .game-friends__scene {
@@ -316,62 +294,24 @@ button:focus-visible {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  min-height: 390px;
-  padding: 2.2rem 0.5rem 0;
-  border-radius: 50% 46% 42% 48%;
-  background: radial-gradient(circle at 50% 65%, rgba(255,255,255,0.96) 0 38%, rgba(231,247,241,0.9) 39% 53%, rgba(231,247,241,0) 54%);
+  min-height: 270px;
+  padding: 1rem 0 0;
+  background: transparent;
 }
 
 .game-friends__scene img {
   display: block;
   width: auto;
   max-width: none;
-  filter: drop-shadow(0 16px 15px rgba(81, 78, 105, 0.15));
+  filter: drop-shadow(0 12px 10px rgba(81, 78, 105, 0.11));
 }
 
 .game-friends__isabelle {
   position: relative;
   z-index: 2;
-  height: clamp(280px, 31vw, 390px);
-  margin-right: -1rem;
+  height: clamp(225px, 23vw, 290px);
+  margin-right: 0;
   animation: gentle-float 5s ease-in-out infinite;
-}
-
-.game-friends__tom {
-  position: relative;
-  z-index: 1;
-  height: clamp(215px, 24vw, 300px);
-  margin-left: -2.2rem;
-  animation: gentle-float 5s 0.55s ease-in-out infinite;
-}
-
-.game-friends__bubble {
-  position: absolute;
-  z-index: 3;
-  padding: 0.5rem 0.75rem;
-  color: var(--ink);
-  font-size: 0.76rem;
-  font-weight: 800;
-  line-height: 1;
-  border: 2px solid #fff;
-  border-radius: 999px;
-  box-shadow: 0 7px 18px rgba(81, 78, 105, 0.12);
-  transform: rotate(-5deg);
-}
-
-.game-friends__bubble--topology {
-  top: 2.3rem;
-  left: 0.35rem;
-  color: var(--sky-ink);
-  background: var(--sky);
-}
-
-.game-friends__bubble--data {
-  top: 7rem;
-  right: 0;
-  color: var(--berry-dark);
-  background: var(--blush);
-  transform: rotate(6deg);
 }
 
 .game-friends figcaption {
@@ -426,7 +366,7 @@ button:focus-visible {
   border: 1px solid rgba(84, 127, 189, 0.15);
   border-radius: 26px;
   background: rgba(239, 247, 255, 0.78);
-  box-shadow: 0 12px 34px rgba(73, 106, 151, 0.08);
+  box-shadow: none;
 }
 
 .about-card__marker {
@@ -530,7 +470,7 @@ button:focus-visible {
   }
 
   .home-intro {
-    grid-template-columns: minmax(0, 1fr) minmax(240px, 0.8fr);
+    grid-template-columns: minmax(0, 1fr) minmax(160px, 0.34fr);
   }
 }
 
@@ -556,15 +496,11 @@ button:focus-visible {
   }
 
   .game-friends__scene {
-    min-height: 330px;
+    min-height: 260px;
   }
 
   .game-friends__isabelle {
-    height: clamp(260px, 70vw, 340px);
-  }
-
-  .game-friends__tom {
-    height: clamp(200px, 54vw, 260px);
+    height: clamp(220px, 60vw, 280px);
   }
 
   .masthead__menu-item--lg {

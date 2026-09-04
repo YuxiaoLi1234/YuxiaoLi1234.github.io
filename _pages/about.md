@@ -28,12 +28,9 @@ redirect_from:
 
   <figure class="game-friends">
     <div class="game-friends__scene">
-      <span class="game-friends__bubble game-friends__bubble--topology">Topology</span>
       <img class="game-friends__isabelle" src="/images/animal-crossing-isabelle.png" alt="Isabelle from Animal Crossing">
-      <img class="game-friends__tom" src="/images/animal-crossing-tom-nook.png" alt="Tom Nook from Animal Crossing">
-      <span class="game-friends__bubble game-friends__bubble--data">Data!</span>
     </div>
-    <figcaption>Animal Crossing characters © Nintendo · <a href="https://animal-crossing.com/" target="_blank" rel="noopener noreferrer">official artwork</a></figcaption>
+    <figcaption>Isabelle © Nintendo · <a href="https://animal-crossing.com/" target="_blank" rel="noopener noreferrer">official artwork</a></figcaption>
   </figure>
 </section>
 
