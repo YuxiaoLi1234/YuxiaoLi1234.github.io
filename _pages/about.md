@@ -47,3 +47,9 @@ redirect_from:
     {% endif %}
   {% endfor %}
 </section>
+
+<aside class="doudou-pet" data-doudou-pet aria-label="小狗">
+  <button class="doudou-pet__button" type="button" aria-label="和小狗玩" title="点击和小狗玩">
+    <span class="doudou-pet__sprite" aria-hidden="true"></span>
+  </button>
+</aside>
