@@ -461,6 +461,83 @@ button:focus-visible {
   background: rgba(255, 250, 252, 0.85);
 }
 
+.doudou-pet {
+  position: fixed;
+  right: 14px;
+  bottom: 12px;
+  z-index: 30;
+  display: flex;
+  width: 88px;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
+  pointer-events: none;
+}
+
+.doudou-pet__button {
+  display: block;
+  width: 100%;
+  aspect-ratio: 192 / 208;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  cursor: pointer;
+  filter: drop-shadow(0 5px 5px rgba(67, 57, 52, 0.16));
+  pointer-events: auto;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.doudou-pet__button:hover {
+  transform: translateY(-3px);
+}
+
+.doudou-pet__button:focus-visible {
+  outline: 3px solid rgba(217, 95, 139, 0.42);
+  outline-offset: 2px;
+  border-radius: 18px;
+}
+
+.doudou-pet__sprite {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/doudou-pet-spritesheet.webp");
+  background-repeat: no-repeat;
+  background-size: 800% 900%;
+  background-position: 0 0;
+}
+
+.doudou-pet__name {
+  padding: 0.12rem 0.52rem;
+  color: #66564f;
+  font-size: 0.72rem;
+  font-weight: 750;
+  line-height: 1.45;
+  border: 1px solid rgba(224, 203, 190, 0.9);
+  border-radius: 999px;
+  background: rgba(255, 252, 247, 0.92);
+  box-shadow: 0 2px 8px rgba(67, 57, 52, 0.08);
+}
+
+@media screen and (max-width: 600px) {
+  .doudou-pet {
+    right: 8px;
+    bottom: 8px;
+    width: 76px;
+  }
+
+  .doudou-pet__name {
+    font-size: 0.66rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .doudou-pet__button:hover {
+    transform: none;
+  }
+}
+
 @keyframes gentle-sparkle {
   0%, 100% { transform: rotate(-6deg) scale(1); opacity: 0.8; }
   50% { transform: rotate(8deg) scale(1.14); opacity: 1; }

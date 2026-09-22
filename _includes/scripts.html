@@ -1,3 +1,7 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+{% if page.homepage_style %}
+<script src="{{ base_path }}/assets/js/doudou-pet.js?v=1"></script>
+{% endif %}
+
 {% include analytics.html %}
