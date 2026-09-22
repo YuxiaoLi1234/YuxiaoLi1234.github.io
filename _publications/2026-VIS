@@ -3,6 +3,7 @@ title: "EXaCTz: Guaranteed Extremum Graph and Contour Tree Preservation for Dist
 collection: publications
 category: conferences
 selected: true
+publication_order: 1
 venue: IEEE Transactions on Visualization and Computer Graphics (Proc. IEEE VIS 2026).
 award: "Best Paper Award"
 paperurl: 'https://arxiv.org/abs/2604.01397'

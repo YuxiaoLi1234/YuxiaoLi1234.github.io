@@ -41,9 +41,8 @@ redirect_from:
     <a href="/publications/">View all <span aria-hidden="true">→</span></a>
   </div>
 
-  {% for post in site.publications reversed %}
-    {% if post.selected %}
-      {% include archive-single.html %}
-    {% endif %}
+  {% assign selected_publications = site.publications | where: "selected", true | sort: "publication_order" %}
+  {% for post in selected_publications %}
+    {% include archive-single.html %}
   {% endfor %}
 </section>
