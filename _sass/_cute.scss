@@ -455,6 +455,21 @@ button:focus-visible {
   color: var(--berry-dark);
 }
 
+.publication-award {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 0 0 0.7rem;
+  padding: 0.25rem 0.65rem;
+  color: #765516;
+  font-size: 0.78rem;
+  font-weight: 750;
+  line-height: 1.45;
+  border: 1px solid #f0d995;
+  border-radius: 999px;
+  background: #fff8e5;
+}
+
 .page__footer {
   color: var(--muted);
   border-top-color: var(--line);
